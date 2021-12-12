@@ -1,0 +1,12 @@
+[programs.devnet]
+myepicproject = "AC7DQh7u8rnT6vNqVEJSSVAnqQxZuD3GSKiH2p4JHkeb"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ernest/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
